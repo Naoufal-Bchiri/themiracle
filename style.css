@@ -1,0 +1,100 @@
+@import url("https://use.typekit.net/xip4qml.css");
+
+body {
+    margin: 0;
+    background-color: #8EDAEB;
+}
+
+main {
+    background: linear-gradient(#55B948, #20DB1D);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    background-color: #7A4B00;
+    height: 20vh;
+    border-top: .5em ridge #20DB1D;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.idea footer {
+    border-top: .5em solid #7A4B00;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+header > img {
+    width: 90vw;
+}
+
+li {
+    list-style-type: none;
+    margin: .1vh 2vw;
+    background-image: url("./img/cloud.png");
+    width: 29.4vw;
+    height: 11.95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idea > main {
+    background-image: url("./img/river.png");
+    height: 100vh;
+}
+
+section {
+    padding: 2rem 0 2rem 0;
+}
+
+article {
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.55);
+    display: flex;
+}
+
+article img {
+    width: 33vw;
+}
+
+p, a {
+    font-family: "gesta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer p {
+    color: white;
+}
+
+nav a {
+    font-size: large;
+}
+
+h2 {
+    font-family: roca, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.location img {
+    width: 20vw;
+}
+
+.location p, .location h2 {
+    text-align: center;
+}
