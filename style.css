@@ -44,11 +44,6 @@ footer li {
     list-style-type: none;
 }
 
-a {
-    color: black;
-    text-decoration-line: none;
-}
-
 ul {
     display: flex;
     flex-direction: row;
@@ -97,6 +92,13 @@ p, a {
 
 nav a {
     font-size: large;
+    font-weight: 500;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+    
 }
 
 h2 {
