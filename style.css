@@ -21,6 +21,7 @@ footer {
     border-top: .5em ridge #20DB1D;
     padding: 0 1em .5em 1em;
     display: flex;
+    align-items: flex-end;
 }
 
 .idea footer {
@@ -31,17 +32,11 @@ footer p {
     color: whitesmoke;
 }
 
-footer div {
-    align-self: flex-end;
-}
-
-footer img {
-    width: 2em;
-    margin-right: .5em;
-}
-
-footer li {
+footer li, footer a {
     list-style-type: none;
+    color: whitesmoke;
+    margin-right: 1em;
+    text-decoration-line: underline;
 }
 
 ul {
