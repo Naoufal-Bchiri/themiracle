@@ -71,7 +71,7 @@ header li {
 }
 
 section {
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 0;
 }
 
 article {
@@ -81,7 +81,7 @@ article {
 }
 
 article img {
-    width: 33vw;
+    width: 7.75em;
 }
 
 p, a {
@@ -98,7 +98,6 @@ nav a {
 a {
     color: black;
     text-decoration-line: none;
-    
 }
 
 h2 {
@@ -125,6 +124,11 @@ h2 {
     margin-right: 2em;
 }
 
+.art img {
+    margin: 0 .1em;
+    border: .5em ridge #BB7538;
+}
+
 .location img {
     width: 20vw;
 }
@@ -138,5 +142,18 @@ h2 {
     border-bottom-left-radius: 10%;
     border-top-left-radius: 10%;
     text-align: right;
-    padding: 0 1em 0 1em;
+    padding: 0 1em 1em 1em;
+}
+
+.flowers a, .person a {
+    font-weight: 600;
+    background-color: rgba(245, 245, 245, 0.55);
+    border-radius: 10%;
+    padding: .3em .5em;
+}
+
+.welcome h2, .welcome p {
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
 }
